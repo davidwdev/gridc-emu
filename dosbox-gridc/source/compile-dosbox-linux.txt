@@ -1,0 +1,16 @@
+
+--- Compile DOSBox Gridc for Linux ---
+
+chmod 0744 autogen.sh
+./autogen.sh
+./configure --enable-force-gamelink
+make -j4
+mv src/dosbox bin/DOSBOX/dosbox_gamelink
+./configure
+make -j4
+mv src/dosbox bin/DOSBOX/dosbox
+
+
+
+
+

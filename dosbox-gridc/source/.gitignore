@@ -1,0 +1,9 @@
+.vs
+visualc_2015/obj/
+visualc_2017/obj/
+visualc_2019/obj/
+*.user
+*.db
+*.opendb
+*.exe
+*.dll
